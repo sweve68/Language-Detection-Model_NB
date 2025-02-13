@@ -1,0 +1,11 @@
+# Excludes virtual environment directory to prevent from being copied in image.
+venv/
+
+#Ignores Python cache files.
+__pycache__/
+
+# Ignore Docker files
+.dockerignore
+
+# Ignore Git and version control files
+.gitignore
